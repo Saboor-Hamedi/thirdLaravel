@@ -1,0 +1,77 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+body {
+    background-color: white;
+}
+
+.navbar {
+    background-color: #e0f1f5;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-toggler i {
+    color: black;
+}
+
+.link {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-item .nav-link {
+    color: black;
+    font-weight: normal;
+    transition: .5s ease-in-out;
+    margin-left: 10px;
+}
+
+.nav-item .nav-link:hover {
+    background-color: rgba(97, 97, 235, 0.774);
+    border-radius: 2px;
+    color: white;
+}
+
+.container {
+    border-radius: 5px;
+    width: 900px;
+}
+
+.form {
+    padding: 30px;
+}
+
+input {
+    padding: 20px 5px !important;
+}
+
+// posts container
+.posts {
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+    margin: 10px 0;
+    box-shadow: 0 5px 5px 2px white;
+
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.likes form:nth-child(n+3) {
+    position: absolute;
+    right: 10px;
+
+}
